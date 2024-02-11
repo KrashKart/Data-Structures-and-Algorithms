@@ -44,14 +44,14 @@ abstract public class Sorter {
         }
     }
 
-    public void displayArr(int start, int end) {
+    public void displayArr(int[] arr) {
         if (this.verbose) {
             String s = "[";
-            for (int i = start; i < end; i++) {
-                if (i == end - 1) {
-                    s += String.format("%d]", this.arr[i]);
+            for (int i = 0; i < arr.length; i++) {
+                if (i == arr.length - 1) {
+                    s += String.format("%d]", arr[i]);
                 } else {
-                    s += String.format("%d, ", this.arr[i]);
+                    s += String.format("%d, ", arr[i]);
                 }
             }
             System.out.printf("%s: %s\n", this.name, s);
