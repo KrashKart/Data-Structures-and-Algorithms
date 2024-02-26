@@ -3,15 +3,15 @@ I mainly use this repository to practice writing code and refresh the concepts t
 
 # Contents
 ## Sorting Algorithms
-- Bubble Sort
-- Insertion Sort
-- Merge Sort
-- Selection Sort
+- [Bubble Sort](src/BubbleSort.java)
+- [Insertion Sort](src/InsertionSort.java)
+- [Merge Sort](src/MergeSort.java)
+- [Selection Sort](src/SelectionSort.java)
 - Quick Sort (in progress)
-- Sorter (base superclass with helper functions)
+- [Sorter](src/Sorter.java) (base superclass with helper functions)
 
 ## Data Structures
-- Trees (non-balancing)
-- TreeNode
+- [Binary Trees](src/Tree.java) (non-balancing)
+- [TreeNode](src/TreeNode.java)
 - AVL Tree (in progress)
 - Order Statistics Tree (in progress)
