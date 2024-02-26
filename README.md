@@ -8,7 +8,7 @@ I mainly use this repository to practice writing code and refresh the concepts t
 - [Merge Sort](src/MergeSort.java)
 - [Selection Sort](src/SelectionSort.java)
 - Quick Sort (in progress)
-- [Sorter](src/Sorter.java) (base superclass with helper functions)
+- [Sorter](src/Sorter.java) (abstract superclass with helper functions)
 
 ## Data Structures
 - [Binary Trees](src/Tree.java) (non-balancing)
