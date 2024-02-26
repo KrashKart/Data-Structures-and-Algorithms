@@ -11,6 +11,19 @@ public class TreeNode implements Comparable<TreeNode> {
         this.right = null;
     }
 
+    public void setChild(TreeNode original, TreeNode n) {
+        if (this.left == original) {
+            this.left = n;
+        } else {
+            this.right = n;
+        }
+    }
+
+    public void clearChild() {
+        this.left = null;
+        this.right = null;
+    }
+
     @Override
     public int compareTo(TreeNode other) {
         return Integer.compare(this.value, other.value);
